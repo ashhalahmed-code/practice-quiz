@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6B5B95;
+}
+
+.container {
+    width: 35rem; /* Adjust container width as needed */
+    box-shadow: 0px 0px 5px grey;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 20px; /* Added padding for spacing */
+}
+
+.col {
+    text-align: justify;
+    padding: 15px;
+    width: 100%; /* Ensure content fills the container */
+}
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+#submit {
+    width: 100%;
+    background-color: rgb(47, 8, 73); /* Dark purple button */
+    transition: 0.5s;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px; /* Adjusted font size */
+    display: block;
+    padding: 15px 0; /* Added vertical padding */
+    margin-top: 15px; /* Added space between button and options */
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(34, 6, 53); /* Darker purple on hover */
+}
+
+.box {
+    box-shadow: 0px -1px 1px grey;
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+   
+    <div class="class" style="background-color: white; padding: 20px;">
+        <h1 style="text-align: center; color: rgb(47, 8, 73); margin: 0; font-size: 36px; text-transform: uppercase; letter-spacing: 2px; font-weight: 700;">
+            Practice TypeScript Quiz
+        </h1>
+    </div>
+    <section class="main">
+        <div class="container">
+            <div class="col">
+                <h3 id="questionBox">
+                    <!-- Question text will be dynamically inserted here -->
+                </h3>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="optionA" value="a" required>
+                <label for="optionA">Option A</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="optionB" value="b" required>
+                <label for="optionB">Option B</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="optionC" value="c" required>
+                <label for="optionC">Option C</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="optionD" value="d" required>
+                <label for="optionD">Option D</label>
+            </div>
+            <button id="submit">Submit</button>
+        </div>
+    </section>
+    <footer style="text-align: center; margin-top: 20px; color: #666; font-size: 14px; font-style: italic;">
+        &copy; 2024 Ashhal Ahmed. All rights reserved.
+    </footer>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
